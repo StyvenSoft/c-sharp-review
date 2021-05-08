@@ -98,7 +98,7 @@ namespace HomeAppliances
             }
         }
 
-        public void finalPrice()
+        public virtual void finalPrice()
         {
             switch (this.energyConsumption)
             {
